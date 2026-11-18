@@ -1,0 +1,28 @@
+name: security_toolkit
+description: Security awareness and authorized security testing toolkit.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.14.1
+  permission_handler: ^13.0.2
+  http: ^1.6.0
+  encrypt: ^5.0.3
+  cryptography: ^2.9.0
+  image_picker: ^1.2.4
+  cross_file: ^0.3.5+5
+  image: ^4.13.1
+  share_plus: ^13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
